@@ -10,7 +10,8 @@
     <title>WebsiteOne</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <!-- Fixed-top lo saca del flujo y lo pone al top-->
         <div class="container">
             <a href="index.html" class="navbar-brand">logotype</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><!--cualquier data-target-->
@@ -70,17 +71,21 @@
                             </div>
                         </div>
                         <div class="col-lg-4"> <!--Seccion de 4 columnas-->
-                            <div class="card text-center" style="backgound-color:#c0392b"><!-- card es para agregarle un pequeño borde a una tarjeta-->
+                            <div class="card text-center" style="background-color:#c0392b"><!-- card es para agregarle un pequeño borde a una tarjeta-->
                                 <div class="card-body"><!--el cuerpo de la tarjeta-->
                                     <h3>ipsum amet.</h3>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                                     <form class="" action="" method="">
                                         <div class="form-group">
                                             <input type="text" class="form-control form-control-lg" placeholder="username"><!-- form-control da un estilo mas personalizado de un input text-->
-                                            <input type="password" class="form-control form-control-lg" placeholder="password"><!-- form-control da un estilo mas personalizado de un input text-->
-                                            <input type="password" class="form-control form-control-lg" placeholder="confirm password"><!-- form-control da un estilo mas personalizado de un input text-->
-                                            <input type="submit" class="btn btn-"
                                         </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control form-control-lg" placeholder="password"><!-- form-control da un estilo mas personalizado de un input text-->
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="password" class="form-control form-control-lg" placeholder="confirm password"><!-- form-control da un estilo mas personalizado de un input text-->
+                                        </div>
+                                        <input type="submit" class="btn btn-outline-light btn-block" value="Send">
                                     </form>
                                 </div>
                             </div>
