@@ -12,7 +12,7 @@ body{
     background: url('../img/bg.jpg') no-repeat;
     min-height: 100vh;
     background-size: cover;
-    background-attachment: fixed /* efecto paralise */
+    /* efecto paralise */
 }
 
 .home-inner{
@@ -20,7 +20,12 @@ body{
 }
 
 .dark-overlay{
-    background-color: rgba(0,0,0,.7)
+    background-color: rgba(0,0,0,.7);
+    height: 100;
+    position: relative;
+}
+.img-section{
+    padding-top: 50px;
 }
 
 
@@ -58,4 +63,12 @@ body{
         padding-left: 10px;
         padding-right: 10px;
     }
+    .info-section-1 .title1{
+        padding-left: 10px !important;
+    }
+}
+
+.info-section-1{
+    background: white;
+    color: black;
 }
