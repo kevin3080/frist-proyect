@@ -24,15 +24,16 @@ body{
     height: 100;
     position: relative;
 }
-.img-section{
-    padding-top: 50px;
+.title-a{
+    text-transform: uppercase;
 }
-
-
 
 @media(max-width: 992px){
     .home-inner{
         padding-top: 50px;
+    }
+    .home-items{
+        padding-left: 0 !important;
     }
 }
 
@@ -63,12 +64,9 @@ body{
         padding-left: 10px;
         padding-right: 10px;
     }
-    .info-section-1 .title1{
-        padding-left: 10px !important;
+   
+    .section-items{
+        padding-left: 0 !important;
     }
 }
 
-.info-section-1{
-    background: white;
-    color: black;
-}
