@@ -1,6 +1,7 @@
 body{
     background: #333;
     color: white;
+    
 }
 
 .navbar{
@@ -12,6 +13,7 @@ body{
     background: url('../img/bg.jpg') no-repeat;
     min-height: 100vh;
     background-size: cover;
+    
     /* efecto paralise */
 }
 
@@ -27,6 +29,31 @@ body{
 .title-a{
     text-transform: uppercase;
 }
+
+#home-in, #form{
+    opacity: 0;
+}
+
+.info-head-secction{
+    background-color: #333;
+}
+.info-head-secction2-color{
+    background: #dc3545;
+}
+.fa-angle-up{
+    font-size: 50px;
+    display: none;
+    background:rgba(0,0,0,.7);
+    margin: 5px;
+    padding: 5px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.fa-angle-up:hover{
+    cursor: pointer;
+}
+
 
 @media(max-width: 992px){
     .home-inner{
